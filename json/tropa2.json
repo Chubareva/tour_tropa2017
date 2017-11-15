@@ -1,0 +1,23 @@
+https://turtropa/v1/tropa/gallery-videos?query=v
+ [{ name:"name of video",
+time :"когда было создано ",
+author :" кто загрузил",
+views:"количество просомтров ",
+process:"like/dislike"}]
+
+
+https://tuttropa/v1/tropa/anketa
+[{ name:" имя пользователя,котрый отправляет заявку ",
+time:" время ,когда была заполнена",
+number:" его рабочий телефон",
+inquiry:" запрос на съемку( видео или фото)",
+comments:" что еще хочет узнать насчет проекта",
+data:" на какое число нужно",}]
+ 
+https://tuttropa/v1/tropa/gallery-photoes
+[{name:"назание альбома"; 
+name:"name of photo",
+time :"когда было загружено",
+author :" кто сфотографировал",
+comments:"дата текст автор";
+process:"like/dislike"}]

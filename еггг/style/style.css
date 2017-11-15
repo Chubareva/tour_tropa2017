@@ -1,0 +1,146 @@
+body{
+	margin: 0px;
+	font-family: Verdana;
+}
+
+.navbar {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #567d3c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.navbar li {
+    position: relative;
+    float: left;
+    line-height: 60px;
+    background: inherit;
+    text-align: center;
+    transition: all .2s;
+}
+
+.navbar li a {
+    position: relative;
+    display: block;
+    padding: 0 20px;
+    line-height: inherit;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar li a:hover{
+	color: black;
+}
+
+.brand{
+	font-size: 30px;
+	width: 60%;
+	text-align: left!important;	
+}
+
+.video{
+	position: relative;
+	background-image: url(../img/video.png);
+	background-size: 100% 480px;
+	height: 480px;
+	background-repeat: no-repeat;		
+}
+
+.video img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 128px;
+	height: 128px;
+	margin: -64px 0px 0px -64px;
+}
+
+.about{
+	background: #567d3c;
+	color: white;
+	text-align: center;
+	padding: 10px 100px 10px 100px;
+	font-size: 18px;
+}
+
+.about h3{
+	font-size: 30px;
+	margin: 0px;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.fade img{
+  width: 33%;
+  height: 200px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.footer{
+	background-color: #567d3c;
+	text-align: center;
+}
+
+.footer img{
+	width: 32px;
+	margin-left:10px;
+	padding-top: 10px; 
+}
+
+.footer p{
+	margin: 0px;
+	color: white;
+	padding:5px 0px 10px 0px;
+	font-size: 15px;
+}
